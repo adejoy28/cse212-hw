@@ -25,3 +25,10 @@ public static class DivisorsSolution
         return results;
     }
 }
+
+/*
+ What I didn't do?
+ 1. I didn't allocate the the capacity
+ 2. simplify my code. I wrote to many wordings and unnecsary variables to make me understand
+ 
+*/
