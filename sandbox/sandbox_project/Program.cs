@@ -9,5 +9,26 @@ public class Program
         // one of your projects.
 
         Console.WriteLine("Hello Sandbox World!");
+
+        var numbers = new List<int>() { 1, 2, 3, 4, 5, 6 };
+        var myString = new List<string>() { "John", "david", "Mark", "Joe", "Jane", "Boys", "Mane" };
+
+
+        Console.WriteLine(numbers[1]);
+        Console.WriteLine(myString[2]);
+        myString.Add("Tolu");
+        // myString.Insert(1, "Bisola");
+        Console.WriteLine(myString.Count == 0);
+
+        Console.WriteLine("\n\n");
+
+        for (var i = 0; i < myString.Count; ++i)
+        {
+            Console.WriteLine(myString[i]);
+        }
+
+        Console.WriteLine("\n\n");
+        Console.WriteLine("Size: " + myString.Count);
+        Console.WriteLine("Capacity: " + myString.Capacity);
     }
 }
