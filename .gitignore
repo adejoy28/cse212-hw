@@ -366,3 +366,8 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+week02/MysteryProgram.cs
+week02/QueTest.cs
+week02/SimpleQueue.cs
+week02/SimpleStack.cs
+week02/SimpleStackSolution.cs
